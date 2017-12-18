@@ -6,6 +6,8 @@ body {
   background-color: #575C60;
   color: #FFF;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
