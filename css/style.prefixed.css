@@ -1,13 +1,18 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   margin: 0 auto;
   background-color: #575C60;
   color: #FFF;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+}
 
+.container {
+  max-width: 1200px;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.prefixed.css.map */
