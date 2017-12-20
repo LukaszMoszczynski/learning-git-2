@@ -22,8 +22,8 @@
     "watch": "parallelshell \"npm run watch:sass\" \"npm run watch:autoprefixer\" \"npm run watch:browsersync\"",
     "watch:sass": "node-sass --output-style expanded --source-map true -o css sass --watch",
     "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css",
-    "watch:browsersync": "browser-sync start --server --files 'src/*.html, src/*.js, images/*'",
-    "watch:sassprefixer": "onchange \" node-sass --output-style expanded --source-map true -o css sass\" \"css/style.css -- autoprefixer-cli -o css/style.css\" ",
+    "watch:browsersync": "node_modules/.bin/browser-sync start --server --files \"css/*.css\" \"*.html\"",
+    "watch:sassprefixer": "onchange \" node-sass --output-style expanded --source-map true -o css sass\" \"css/style.css -- autoprefixer-cli -o css/style.css\" "
   },
   "repository": {
     "type": "git",
